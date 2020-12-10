@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29626" started-at="2020-12-10T15:47:41 CET" finished-at="2020-12-10T15:48:10 CET">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="29626" started-at="2020-12-10T15:47:41 CET" finished-at="2020-12-10T15:48:10 CET">
+      <class name="mayu.test.Load26">
+        <test-method status="PASS" signature="launchDriver()[pri:0, instance:mayu.test.Load26@87f383f]" name="launchDriver" is-config="true" duration-ms="9004" started-at="2020-12-10T15:47:41 CET" finished-at="2020-12-10T15:47:50 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:mayu.test.Load26@87f383f]" name="Test1" duration-ms="1947" started-at="2020-12-10T15:47:50 CET" finished-at="2020-12-10T15:47:52 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:mayu.test.Load26@87f383f]" name="quit" is-config="true" duration-ms="637" started-at="2020-12-10T15:47:52 CET" finished-at="2020-12-10T15:47:52 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="launchDriver()[pri:0, instance:mayu.test.Load26@87f383f]" name="launchDriver" is-config="true" duration-ms="6385" started-at="2020-12-10T15:47:52 CET" finished-at="2020-12-10T15:47:59 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:mayu.test.Load26@87f383f]" name="Test2" duration-ms="1744" started-at="2020-12-10T15:47:59 CET" finished-at="2020-12-10T15:48:01 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:mayu.test.Load26@87f383f]" name="quit" is-config="true" duration-ms="633" started-at="2020-12-10T15:48:01 CET" finished-at="2020-12-10T15:48:01 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="launchDriver()[pri:0, instance:mayu.test.Load26@87f383f]" name="launchDriver" is-config="true" duration-ms="6371" started-at="2020-12-10T15:48:01 CET" finished-at="2020-12-10T15:48:08 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+        <test-method status="PASS" signature="Test3()[pri:0, instance:mayu.test.Load26@87f383f]" name="Test3" duration-ms="2249" started-at="2020-12-10T15:48:08 CET" finished-at="2020-12-10T15:48:10 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:mayu.test.Load26@87f383f]" name="quit" is-config="true" duration-ms="626" started-at="2020-12-10T15:48:10 CET" finished-at="2020-12-10T15:48:10 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- mayu.test.Load26 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
