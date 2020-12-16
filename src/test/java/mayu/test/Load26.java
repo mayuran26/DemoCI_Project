@@ -27,7 +27,7 @@ public void launchDriver() {
 	public void Test1() {
 		driver.navigate().to("https://automationtalks.com/");
 		System.out.println("Test1 Title is :"+driver.getTitle());
-		System.out.println("**************");
+		
 	}
 	@Test
 	public void Test2() {
