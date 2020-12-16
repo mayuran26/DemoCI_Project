@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -14,8 +15,8 @@ public static WebDriver driver;
 	@BeforeMethod
 public void launchDriver() {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\masi\\Desktop\\drivers\\chromedriver.exe");
-		driver= new ChromeDriver();
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\masi\\Desktop\\drivers\\geckodriver.exe");
+		driver= new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().fullscreen();
 		driver.navigate().to("https://automationtalks.com/");
@@ -26,6 +27,7 @@ public void launchDriver() {
 	public void Test1() {
 		driver.navigate().to("https://automationtalks.com/");
 		System.out.println("Test1 Title is :"+driver.getTitle());
+		System.out.println("**************");
 	}
 	@Test
 	public void Test2() {
